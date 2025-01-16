@@ -1,0 +1,40 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+th.sorting_asc::after {
+    content: " ▲";
+}
+
+th.sorting_desc::after {
+    content: " ▼";
+}
+#summary {
+  border: none;
+  border-collapse: collapse;
+}
+
+button {
+padding: 10px 20px;
+font-size: 12px;
+background-color: #000000;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
