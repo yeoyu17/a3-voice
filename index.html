@@ -4,32 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>mobile</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="file://d:/mobile/style.css">
 </head>
 <body>
     <header>
         <nav class="top-nav">
-            <button class="menu-button">☰</button>
+            <button class="menu-button" id="menu-toggle">☰</button>
             <h1></h1>
             <button class="home-button">A3! 모음집</button>
         </nav>
+        <nav class="floating-menu" id="floating-menu">
+            <button class="menu-close" id="menu-close">닫기</button>
+           <ul>
+               <li><a href="#section1">카드리스트</a></li>
+               <li><a href="#section2">보이스뱅크</a></li>
+               <li><a href="#section3">노래</a></li>
+           </ul>
+       </nav>
     </header>
     <main>
 <section>
       <div class="hero">
     <div class="hero-container">
-        <img src="assets/images/slide2_pc.jpg" alt="Hero Image" class="hero-image">
+        <img src="file://d:/slide2_pc.jpg" alt="Hero Image" class="hero-image">
     </div>
 </div>
 </section>
         <section class="button-group">
             <button class="card-list">카드 리스트</button>
-            <button class="voice-bank">보이스뱅크</button>
+          <a href="file://d:/mobile/voice_bank.html"> <button class="voice-bank">보이스뱅크</button> </a>
         </section>
     </main>
+
     <footer>
         <p>@hctoast_a3</p>
     </footer>
-    <script src="script.js"></script>
+
+    <nav class="floating-menu" id="floating-menu">
+       <button class="menu-close" id="menu-close">닫기</button>
+       <ul>
+           <li><a href="#section1">카드리스트</a></li>
+           <li><a href="#section2">보이스뱅크</a></li>
+           <li><a href="#section3">노래</a></li>
+       </ul>
+   </nav>
+
+    <script src="file://d:/mobile/script.js"></script>
 </body>
 </html>
