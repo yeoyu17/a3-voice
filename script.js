@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         menuButton.classList.remove('hidden'); // ☰ 버튼 다시 표시
     });
     const characters = [
-        { id: 'sakuya', image: 'SdIcon_001.png' },
+        { id: 'sakuya', image: 'assets/images/SdIcon_001.png' },
         { id: 'masum9', image: 'SdIcon_002.png' },
         { id: 'tsuzuru', image: 'SdIcon_003.png' },
         { id: 'itaru', image: 'SdIcon_004.png' },
