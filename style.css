@@ -25,6 +25,7 @@ header {
 .hero-container {
     display: flex;
     width: 100%;
+    aspect-ratio: 360 / 720; /* 360x720 비율 유지 */
     justify-content: center; /* 가로 중앙 정렬 */
     align-items: center; /* 세로로 센터 */
     height: 300px; /* 컨테이너 높이 설정 */
@@ -36,8 +37,7 @@ header {
 }
 
 .hero-image {
-    width: 1500px;
-    height: auto;
+    height: 100%;
     display: block;
     object-fit: cover; /* 컨테이너에 맞게 자르기 */
 }
